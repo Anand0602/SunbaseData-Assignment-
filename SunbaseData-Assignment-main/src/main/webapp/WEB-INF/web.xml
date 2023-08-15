@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Authentication</servlet-name>
+  	<display-name>Authentication</display-name>
+  	<description></description>
+  	<servlet-class>com.viki.Authentication</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Home</servlet-name>
+  	<display-name>Home</display-name>
+  	<description></description>
+  	<servlet-class>com.viki.Home</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Delete</servlet-name>
+  	<display-name>Delete</display-name>
+  	<description></description>
+  	<servlet-class>com.viki.Delete</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddCustomer</servlet-name>
+  	<display-name>AddCustomer</display-name>
+  	<description></description>
+  	<servlet-class>com.viki.AddCustomer</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Update</servlet-name>
+  	<display-name>Update</display-name>
+  	<description></description>
+  	<servlet-class>com.viki.Update</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Authentication</servlet-name>
+  	<url-pattern>/Authentication</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Home</servlet-name>
+  	<url-pattern>/Home</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Delete</servlet-name>
+  	<url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddCustomer</servlet-name>
+  	<url-pattern>/AddCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Update</servlet-name>
+  	<url-pattern>/Update</url-pattern>
+  </servlet-mapping>
+</web-app>

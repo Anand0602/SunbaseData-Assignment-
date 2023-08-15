@@ -1,0 +1,260 @@
+@charset "ISO-8859-1";
+
+.home-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10%;
+	flex-grow: 1;
+}
+.top-con{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.custom-btn{
+	  font-size: 13px;
+	  font-weight: 500;
+	  font-family: 'Roboto';
+	  color: #ffffff;
+	  height: 35px;
+	  border: none;
+	  border-radius: 5px;
+	  outline: none;
+	  background-color: #3b82f6;
+	  cursor: pointer;
+	  width: 100px;
+	  align-self: flex-start;
+	  margin-top: 10px;
+}
+.customer-list{
+	font-size: 30px;
+	margin-top: 0px;
+	margin-left: 35%;
+	font-weight: 600;
+	font-family: "Roboto";
+	text-align: center;
+	align-self: center;
+}
+.bottom-com{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.key-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 3px;
+	padding-top: 1%;
+}
+.loding-view{
+	font-size: 20px;
+	font-family: "Roboto";
+	font-weight: 500;
+	margin-top: 20%;
+}
+
+.key-fname{	
+	  font-size: 18px;
+	  font-weight: 500;
+	  font-family: 'Roboto';
+	  width: 10%;
+	  text-align: left;
+	  align-self: center;
+	  padding-left: 1%;
+	  
+}
+
+.key-lname{
+	  font-size: 18px;
+	  font-weight: 500;
+	  font-family: 'Roboto';
+	  width: 10%;
+	  text-align: left;
+	  padding-left: 1%;
+	  
+}
+
+.key-address{font-size: 18px;
+	  font-weight: 500;
+	  font-family: 'Roboto';
+	  width: 10%;
+	  text-align: left;
+	  padding-left: 1%;
+	  
+}
+
+.key-city{
+	font-size: 18px;
+	  font-weight: 500;
+	  font-family: 'Roboto';
+	  width: 10%;
+	  text-align: left;
+}
+
+.key-state{
+	font-size: 18px;
+	  font-weight: 500;
+	  font-family: 'Roboto';
+	  width: 10%;
+	  text-align: left;
+	  padding-left: 1%;
+}
+
+.key-email{
+	  font-size: 18px;
+	  font-weight: 500;
+	  font-family: 'Roboto';
+	  width: 25%;
+	  text-align: left;
+	  padding-left: 1%;
+}
+
+.key-phone{
+	  font-size: 18px;
+	  font-weight: 500;
+	  font-family: 'Roboto';
+	  width: 15%;
+	  text-align: left;
+	  padding-left: 1%;
+	  ;
+}
+
+.key-action{
+	  display: flex;
+	  justify-content: space-around;
+	  font-size: 18px;
+	  font-weight: 500;
+	  font-family: 'Roboto';
+	  width: 10%;
+	  text-align: left;
+	  
+}
+
+.content-sub-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	border-bottom: 1px solid black;
+	padding-top: 1%;
+	
+}
+.values-con{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+.value{
+	  font-size: 18px;
+	  font-weight: 500;
+	  font-family: 'Roboto';
+	  height: 35px;
+	  width: 100px;
+}
+
+.delete-icon{
+	color: red;
+	text-align: left;
+	cursor: pointer;
+	size: 18px;
+	padding-bottom: 1%;
+	
+}
+.edit-icon{
+	text-align: left;
+	cursor: pointer;
+	color: green;
+	size: 18px;
+}
+
+
+.form-container, .update-form-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+	width: 100%;
+	height: auto;
+	align-self: center;
+}
+
+.form-sub-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+	width: 100%;
+	height: auto;
+}
+
+.form{
+	display: flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 58%;
+	margin-top: 5%;
+	margin-left: 20%;
+    border-radius: 5px;
+    box-shadow: 0px 3px 7px 3px #e2e8f0;
+    padding: 3%;
+    align-self: center;
+}
+
+.custom-input{
+  width: 300px;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #94a3b8;
+  border-radius: 5px;
+  outline: none;
+  height: 35px;
+  background-color: transparent;
+}
+
+.cust-details{
+	font-size: 30px;
+	font-family: "Roboto";
+	font-weight: 600;
+	text-align: center;
+}
+
+.custom-label{
+	text-align: left;
+	
+}
+
+.submit-btn{
+	align-self: flex-end;
+	margin-top: 5%;
+	margin-left: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
